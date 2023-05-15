@@ -1,5 +1,7 @@
 <style>
+  
   body {margin:0;}
+  
   .navbar {
     background-color: black;
     color: white;
@@ -20,13 +22,15 @@
     text-decoration: none;
   }
 
-  .navbar a:hover:not(.current) {
-    background-color: #333;
-    color: white;
+  @media (hover: hover) {
+    .navbar a:hover:not(.current) {
+      background-color: #333;
+      color: white;
+    }
   }
-  
+
   .current {
-    background-color: #3c3;
+    background-color: #2b2;
     color: white;
   }
  
