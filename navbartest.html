@@ -3,9 +3,10 @@
     background-color: black;
     color: white;
     overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-  
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
   }
 
   .navbar a {
@@ -17,8 +18,13 @@
     text-decoration: none;
   }
 
-  .active {
-    background-color: #4CAF50;
+  .current {
+    background-color: #3c3;
+    color: white;
+  }
+  
+  .navbar a:hover:not(.current) {
+    background-color: #333;
     color: white;
   }
 </style>
