@@ -47,3 +47,8 @@ a {
 .text {
   padding: 20px;
 }
+
+.right {
+    text-align: right;
+    float: right;
+}
