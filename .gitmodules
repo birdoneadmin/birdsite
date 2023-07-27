@@ -1,0 +1,7 @@
+[submodule "/birdweb/montecentral"] 
+  path = /birdweb/montecentral 
+  url = https://github.com/phuwatthepro/montetesting
+
+[submodule "/birdweb/ampiontk"] 
+  path = /birdweb/ampiontk 
+  url = https://github.com/ampionworld/ampion.tk
